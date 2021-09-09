@@ -34,7 +34,7 @@ const LeftPanel = () => {
     <nav className="nav flex-column ps-3">
       <div className="col">
         <div className="row">
-          <p className="navbar-brand">Categories</p>
+          <p className="navbar-brand text-white">Categories</p>
           <div className="dropdown">
             <select
               className="bg-primary p-2 text-white"
@@ -75,7 +75,7 @@ const LeftPanel = () => {
           </div>
         </div>
         <div className="row">
-          <p className="navbar-brand">Files</p>
+          <p className="navbar-brand text-white">File Description</p>
           <div className="card overflow-auto">
             <div className="card-body">
               {Object.keys(photos).map(([k]) => (

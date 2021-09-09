@@ -9,7 +9,7 @@ const App = () => {
   return (
     <DragDropContext>
       <div className="row">
-        <h1 className="text-center">Carousel</h1>
+        <h1 className="text-center text-white">Carousel</h1>
         <div className="col col-2">
           <LeftPanel />
         </div>
