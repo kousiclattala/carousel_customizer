@@ -3,9 +3,11 @@ import BottomPanel from "./components/BottomPanel";
 import CarouselPanel from "./components/CarouselPanel";
 import LeftPanel from "./components/LeftPanel";
 
+import { DragDropContext } from "react-beautiful-dnd";
+
 const App = () => {
   return (
-    <div className="container container-fluid">
+    <DragDropContext>
       <div className="row">
         <h1 className="text-center">Carousel</h1>
         <div className="col col-2">
@@ -16,7 +18,7 @@ const App = () => {
           <BottomPanel />
         </div>
       </div>
-    </div>
+    </DragDropContext>
   );
 };
 
