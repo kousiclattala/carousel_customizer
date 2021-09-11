@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Api initialization
 const unsplash = createApi({
-  accessKey: "kGUu_gqO1GtfvG_w7wKsFmDjYdVVKk-VgifiuHJqdis",
+  accessKey: "<Add-Your-Key-Here>",
   fetch: fetch,
 });
 
